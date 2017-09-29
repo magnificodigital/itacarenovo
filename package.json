@@ -1,0 +1,28 @@
+{
+  "name": "itacareparadise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magnificodigital/itacarenovo.git"
+  },
+  "author": "Magnifico Digital",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnificodigital/itacarenovo/issues"
+  },
+  "homepage": "https://github.com/magnificodigital/itacarenovo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}
