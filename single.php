@@ -10,7 +10,15 @@
 				</header>
 				<?php the_post_thumbnail('full',array('title' => get_the_title(), 'alt' => get_the_title())); ?>
 				<section class="content">
-					<?php the_content(); ?>
+					<?php
+						the_content();
+						$form = get_field('codigo_formulario');
+						if (isset($form) && !empty($form)) {
+							echo '<div class="single-form-wrapper">';
+							echo $form;
+							echo '</div>';
+						}
+					?>
 				</section>
 				<div class="tags">
 					<?php the_tags('Tags: ','',''); ?>
