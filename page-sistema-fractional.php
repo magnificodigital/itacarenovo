@@ -25,7 +25,7 @@
                 <img src="<?php bloginfo('template_url'); ?>/images/sistema-fractional-familia.jpg" alt="Sistema Fracional: Família" title="Sistema Fractional" />
                 <article>
                     <div class="content">
-                        <p>Esse modelo de compra compartilhada ou fracionada de imóveis nasceu há cerca de cinco anos nos Estados Unidos, Canadá e México, sendo específico para casas de férias.</p>
+                        <p>Esse modelo de <strong>compra compartilhada</strong> ou fracionada de imóveis nasceu há cerca de cinco anos nos Estados Unidos, Canadá e México, sendo específico para casas de férias.</p>
                         <p>Virou um sucesso também no Caribe e na Europa e vem conquistando cada vez mais novos proprietários no Brasil.</p>
                         <p>Prova disso é a valorização dos primeiros empreendimentos, que estão colhendo os frutos do pioneirismo com valorização de até 200% do valor original, comprovando ser um excelente negócio.</p>
                     </div>
@@ -45,8 +45,8 @@
                     <div class="reveal">
                         <p>Quem opta pela posse completa tem a vantagem de poder utilizar seu imóvel de luxo o quanto quiser durante o ano todo.</p>
                         <p>Porém, deve estar disposto a arcar com os altos valores de investimento e as despesas integrais de manutenção.</p>
-                        <p>Já nos sistemas de compra compartilhada, o valor de investimento é muito mais acessível. Ou seja: eles permitem que mais pessoas consigam aproveitar uma casa de alto padrão particular nas férias.</p>
-                        <p>Ambos o <strong>Sistema Fractional</strong> e o <strong>Sistema Timeshare</strong> possuem seus destaques e benefícios, mas quem escolhe investir em uma compra compartilhada deve analisar qual se encaixa melhor no perfil.</p>
+                        <p>Já nos sistemas de <strong>compra compartilhada</strong>, o valor de investimento é muito mais acessível. Ou seja: eles permitem que mais pessoas consigam aproveitar uma casa de alto padrão particular nas férias.</p>
+                        <p>Ambos o <strong>Sistema Fractional</strong> e o <strong>Sistema Timeshare</strong> possuem seus destaques e benefícios, mas quem escolhe investir em uma <strong>compra compartilhada</strong> deve analisar qual se encaixa melhor no perfil.</p>
                     </div>
                 </div>
             </div>
@@ -120,7 +120,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-sm-6 col-xs-12">
-                        <p>O <strong>Sistema Fractional</strong> é uma das grandes vantagens do Itacaré Paradise. Quem compra uma propriedade no empreendimento está comprando uma <strong>FRAÇÃO da casa compartilhada.</strong></p>
+                        <p>O <strong>Sistema Fractional</strong> é uma das grandes vantagens do Itacaré Paradise. Quem <strong>compra uma propriedade</strong> no empreendimento está comprando uma <strong>FRAÇÃO da casa <strong>compartilhada</strong>.</strong></p>
                         <p>Porém, essa fração, em vez de ser medida em unidade (como em um edifício) ou em m² (como em um loteamento), <strong>é medida em TEMPO DE USO. Melhor dizendo, você compra o seu imóvel e só paga pelo período que pretende utilizá-lo.</strong></p>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
@@ -141,7 +141,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <p><strong>Com a compra compartilhada de imóveis, o proprietário compra por menos e tem menos despesas,</strong> já que ele paga apenas pelo equivalente à sua fração.</p>
+                    <p><strong>Com a <strong>compra compartilhada</strong> de imóveis, o proprietário compra por menos e tem menos despesas,</strong> já que ele paga apenas pelo equivalente à sua fração.</p>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12">
                     <p><strong>Mais do que isso, as casas são entregues com tudo incluso, prontas para o uso e com serviços de Hotel.</strong></p>
