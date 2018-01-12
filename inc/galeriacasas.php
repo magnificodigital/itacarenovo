@@ -58,7 +58,7 @@
 	<nav>
 		<div class="container no-padding-mobile">
 			<div id="selectCasa">
-				<ul>					
+				<ul>				
 					<li data-galeria="fotoscasaazul" class="first"><span>Paradise Blue Sky <i class="fa fa-angle-down" aria-hidden="true"></i></span></li>
 					<li data-galeria="fotoscasaamarela"><span>Paradise Yellow Send <i class="fa fa-angle-down" aria-hidden="true"></i></span></li>
 				</ul>
