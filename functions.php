@@ -28,6 +28,22 @@ function my_search_form($form) {
 
 add_filter('get_search_form', 'my_search_form');
 
+register_post_type('banners',
+	array(
+		'labels' => array(
+			'name' => __('Banners'),
+			'singular_name' => __('Banners'),
+			'menu_name' => 'Banners',
+			'all_items' => 'Todos os banners'
+		),
+	'public' => true,
+	'rewrite' => array('slug' => 'banner', 'with_front' => false),
+	'has_archive' => false,		 
+	'supports' => array('title'),
+	'menu_icon' => 'dashicons-images-alt',
+	)
+);
+
 register_post_type('galeriacasas',
 	array(
 		'labels' => array(

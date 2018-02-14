@@ -2,54 +2,49 @@
 <section id="bannershome">
 	<div class="swiper-container">
 	    <div class="swiper-wrapper">
-	        <div class="swiper-slide" data-swiper-autoplay="3000">
-	        	<div class="banner-wrapper banner-1">
-	        		<div class="container">
-		        		<figure>
-		        			<h1>Conheça todos os benefícios da <strong>compra compartilhada</strong></h1>
-		        			<a href="<?php bloginfo('url'); ?>/sistema-fractional/">Saiba Mais</a>
-		        		</figure>
-		        		<div class="sistemafractional">
-		        			<img src="<?php bloginfo('template_url'); ?>/images/sistemafractional.png" alt="Sistema Fractional">
+	        <?php 
+			$args = array(
+			    'orderby' => 'date',
+			    'order' => 'ASC',
+			    'post_type' => 'banners',
+			    'showposts' => 5000
+			); 
+			$posts = get_posts($args);
+			$c = 1;
+			foreach ($posts as $post) {
+				$id = $post->ID;
+				$text = get_field('texto',$id);
+				$photo = get_field('foto',$id);
+				$link = get_field('link',$id);
+				$color = get_field('cor',$id); ?>
+
+				<div class="swiper-slide" data-swiper-autoplay="7000">
+		        	<div class="banner-wrapper banner-<?php echo $c; ?>" style="background-image: url('<?php echo $photo; ?>');">
+		        		<div class="container">
+			        		<figure>
+			        			<h2><?php echo $text; ?></h2>
+			        			<a href="<?php echo $link; ?>">Saiba Mais</a>
+			        		</figure>
+			        		<div class="sistemafractional">
+			        			<img src="<?php bloginfo('template_url'); ?>/images/sistemafractional.png" alt="Sistema Fractional">
+			        		</div>
+			        		<div class="clearfix"></div>
 		        		</div>
-		        		<div class="clearfix"></div>
-	        		</div>
-	        	</div>
-	        </div>
-	        <div class="swiper-slide" data-swiper-autoplay="7000">
-	        	<div class="banner-wrapper banner-2">
-	        		<div class="container">
-		        		<figure>
-		        			<h2>Sua casa em um dos lugares mais <strong>paradisíacos</strong> do mundo</h2>
-		        			<a href="<?php bloginfo('url'); ?>/intercambio-imobiliario/">Saiba Mais</a>
-		        		</figure>
-		        		<div class="clearfix"></div>
-	        		</div>
-	        	</div>
-	        </div>
-	        <div class="swiper-slide" data-swiper-autoplay="7000">
-	        	<div class="banner-wrapper banner-3">
-	        		<div class="container">
-		        		<figure>
-		        			<h2>Apaixone-se por um lugar paradisíaco</h2>
-		        			<a href="<?php bloginfo('url'); ?>/conheca-itacare/">Saiba Mais</a>
-		        		</figure>
-		        		<div class="clearfix"></div>
-	        		</div>
-	        	</div>
-	        </div>
-	        <!--
-	        <div class="swiper-slide" data-swiper-autoplay="7000">
-	        	<div class="banner-wrapper banner-4">
-	        		<div class="container">
-		        		<figure>
-		        			<h2><strong>Intercâmbio Imobiliário</strong> mais de <strong>100 destinos ao redor do mundo.</strong></strong></h2>
-		        			<a href="#">Saiba Mais</a>
-		        		</figure>
-		        		<div class="clearfix"></div>
-	        		</div>
-	        	</div>
-	        </div>-->
+		        	</div>
+		        </div>
+
+		        <style type="text/css">
+		        	.banner-<?php echo $c; ?> h1:before,
+		        	.banner-<?php echo $c; ?> h1:after,
+		        	.banner-<?php echo $c; ?> h2:before,
+		        	.banner-<?php echo $c; ?> h2:after,
+		        	.banner-<?php echo $c; ?> a {
+		        		background-color: <?php echo $color; ?> !important;
+		        	}
+		        </style>
+
+		        <?php $c++; ?>
+			<?php } ?>	
 	    </div>
 	    <div class="navigation">
 	    	<span><i class="fa fa-angle-left" aria-hidden="true"></i></span>

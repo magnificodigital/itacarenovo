@@ -58,6 +58,9 @@ ob_start();
 <script>document.addEventListener('DOMContentLoaded',function(){var JSLink=location.protocol+'//widget.omnize.com',JSElement=document.createElement('script');JSElement.async=!0;JSElement.charset='UTF-8';JSElement.src=JSLink;JSElement.onload=OnceLoaded;document.getElementsByTagName('body')[0].appendChild(JSElement);function OnceLoaded(){wOmz.init({id:3666});}},false);</script> 
 <!-- Fim do script Omnize -->
 
+<style type="text/css">
+	body:before {display: none !important; content: "";}
+</style>
 </head>
 
 <body <?php body_class(); ?>>
