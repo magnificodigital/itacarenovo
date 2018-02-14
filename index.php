@@ -25,9 +25,11 @@
 			        			<h2><?php echo $text; ?></h2>
 			        			<a href="<?php echo $link; ?>">Saiba Mais</a>
 			        		</figure>
-			        		<div class="sistemafractional">
-			        			<img src="<?php bloginfo('template_url'); ?>/images/sistemafractional.png" alt="Sistema Fractional">
-			        		</div>
+			        		<?php if ($c == 1) : ?>
+				        		<div class="sistemafractional">
+				        			<img src="<?php bloginfo('template_url'); ?>/images/sistemafractional.png" alt="Sistema Fractional">
+				        		</div>
+			        		<?php endif; ?>
 			        		<div class="clearfix"></div>
 		        		</div>
 		        	</div>
